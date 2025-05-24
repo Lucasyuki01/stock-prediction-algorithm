@@ -1,0 +1,244 @@
+{
+    "tickers": {
+        "BRAP4.SA": [
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume"
+        ]
+    },
+    "indicators": {
+        "RSI_BRAP4.SA_Open_10": {
+            "ind": "RSI",
+            "ticker": "BRAP4.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "RSI_BRAP4.SA_Open_15": {
+            "ind": "RSI",
+            "ticker": "BRAP4.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "RSI_BRAP4.SA_Close_10": {
+            "ind": "RSI",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSI_BRAP4.SA_Close_15": {
+            "ind": "RSI",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "MACD_BRAP4.SA_Close": {
+            "ind": "MACD",
+            "ticker": "BRAP4.SA",
+            "column": "Close"
+        },
+        "detrend_BRAP4.SA_Open_10": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "detrend_BRAP4.SA_Open_15": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "detrend_BRAP4.SA_Open_20": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Open",
+            "period": 20
+        },
+        "detrend_BRAP4.SA_Close_10": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "detrend_BRAP4.SA_Close_15": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "detrend_BRAP4.SA_Close_20": {
+            "ind": "detrend",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 20
+        },
+        "volatility_BRAP4.SA_5": {
+            "ind": "volatility",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "volatility_BRAP4.SA_10": {
+            "ind": "volatility",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "volatility_BRAP4.SA_20": {
+            "ind": "volatility",
+            "ticker": "BRAP4.SA",
+            "period": 20
+        },
+        "lag_n_BRAP4.SA_1": {
+            "ind": "lag_n",
+            "ticker": "BRAP4.SA",
+            "period": 1
+        },
+        "VWAP_BRAP4.SA_5": {
+            "ind": "VWAP",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "VWAP_BRAP4.SA_10": {
+            "ind": "VWAP",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "CCI_BRAP4.SA_5": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "CCI_BRAP4.SA_6": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 6
+        },
+        "CCI_BRAP4.SA_7": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 7
+        },
+        "CCI_BRAP4.SA_8": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 8
+        },
+        "CCI_BRAP4.SA_9": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 9
+        },
+        "CCI_BRAP4.SA_10": {
+            "ind": "CCI",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "SOSC_BRAP4.SA_5": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "SOSC_BRAP4.SA_6": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 6
+        },
+        "SOSC_BRAP4.SA_7": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 7
+        },
+        "SOSC_BRAP4.SA_8": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 8
+        },
+        "SOSC_BRAP4.SA_9": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 9
+        },
+        "SOSC_BRAP4.SA_10": {
+            "ind": "SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "Bin_SOSC_BRAP4.SA_5": {
+            "ind": "Bin_SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "Bin_SOSC_BRAP4.SA_10": {
+            "ind": "Bin_SOSC",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "zscore_BRAP4.SA_5": {
+            "ind": "zscore",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "zscore_BRAP4.SA_10": {
+            "ind": "zscore",
+            "ticker": "BRAP4.SA",
+            "period": 10
+        },
+        "zscore_BRAP4.SA_15": {
+            "ind": "zscore",
+            "ticker": "BRAP4.SA",
+            "period": 15
+        },
+        "DIR_BRAP4.SA": {
+            "ind": "DIR",
+            "ticker": "BRAP4.SA"
+        },
+        "DIR_p_BRAP4.SA_1": {
+            "ind": "DIR_p",
+            "ticker": "BRAP4.SA",
+            "period": 1
+        },
+        "DIR_p_BRAP4.SA_2": {
+            "ind": "DIR_p",
+            "ticker": "BRAP4.SA",
+            "period": 2
+        },
+        "DIR_p_BRAP4.SA_3": {
+            "ind": "DIR_p",
+            "ticker": "BRAP4.SA",
+            "period": 3
+        },
+        "DIR_p_BRAP4.SA_4": {
+            "ind": "DIR_p",
+            "ticker": "BRAP4.SA",
+            "period": 4
+        },
+        "DIR_p_BRAP4.SA_5": {
+            "ind": "DIR_p",
+            "ticker": "BRAP4.SA",
+            "period": 5
+        },
+        "RSL_BRAP4.SA_Close_5": {
+            "ind": "RSL",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 5
+        },
+        "RSL_BRAP4.SA_Close_10": {
+            "ind": "RSL",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSL_BRAP4.SA_Close_15": {
+            "ind": "RSL",
+            "ticker": "BRAP4.SA",
+            "column": "Close",
+            "period": 15
+        }
+    },
+    "drop": "drop",
+    "model_type": "serial_skl",
+    "binary": false,
+    "pca": false
+}

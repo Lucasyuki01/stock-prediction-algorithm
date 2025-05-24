@@ -1,0 +1,244 @@
+{
+    "tickers": {
+        "ALPA4.SA": [
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume"
+        ]
+    },
+    "indicators": {
+        "RSI_ALPA4.SA_Open_10": {
+            "ind": "RSI",
+            "ticker": "ALPA4.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "RSI_ALPA4.SA_Open_15": {
+            "ind": "RSI",
+            "ticker": "ALPA4.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "RSI_ALPA4.SA_Close_10": {
+            "ind": "RSI",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSI_ALPA4.SA_Close_15": {
+            "ind": "RSI",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "MACD_ALPA4.SA_Close": {
+            "ind": "MACD",
+            "ticker": "ALPA4.SA",
+            "column": "Close"
+        },
+        "detrend_ALPA4.SA_Open_10": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "detrend_ALPA4.SA_Open_15": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "detrend_ALPA4.SA_Open_20": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Open",
+            "period": 20
+        },
+        "detrend_ALPA4.SA_Close_10": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "detrend_ALPA4.SA_Close_15": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "detrend_ALPA4.SA_Close_20": {
+            "ind": "detrend",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 20
+        },
+        "volatility_ALPA4.SA_5": {
+            "ind": "volatility",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "volatility_ALPA4.SA_10": {
+            "ind": "volatility",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "volatility_ALPA4.SA_20": {
+            "ind": "volatility",
+            "ticker": "ALPA4.SA",
+            "period": 20
+        },
+        "lag_n_ALPA4.SA_1": {
+            "ind": "lag_n",
+            "ticker": "ALPA4.SA",
+            "period": 1
+        },
+        "VWAP_ALPA4.SA_5": {
+            "ind": "VWAP",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "VWAP_ALPA4.SA_10": {
+            "ind": "VWAP",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "CCI_ALPA4.SA_5": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "CCI_ALPA4.SA_6": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 6
+        },
+        "CCI_ALPA4.SA_7": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 7
+        },
+        "CCI_ALPA4.SA_8": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 8
+        },
+        "CCI_ALPA4.SA_9": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 9
+        },
+        "CCI_ALPA4.SA_10": {
+            "ind": "CCI",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "SOSC_ALPA4.SA_5": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "SOSC_ALPA4.SA_6": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 6
+        },
+        "SOSC_ALPA4.SA_7": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 7
+        },
+        "SOSC_ALPA4.SA_8": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 8
+        },
+        "SOSC_ALPA4.SA_9": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 9
+        },
+        "SOSC_ALPA4.SA_10": {
+            "ind": "SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "Bin_SOSC_ALPA4.SA_5": {
+            "ind": "Bin_SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "Bin_SOSC_ALPA4.SA_10": {
+            "ind": "Bin_SOSC",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "zscore_ALPA4.SA_5": {
+            "ind": "zscore",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "zscore_ALPA4.SA_10": {
+            "ind": "zscore",
+            "ticker": "ALPA4.SA",
+            "period": 10
+        },
+        "zscore_ALPA4.SA_15": {
+            "ind": "zscore",
+            "ticker": "ALPA4.SA",
+            "period": 15
+        },
+        "DIR_ALPA4.SA": {
+            "ind": "DIR",
+            "ticker": "ALPA4.SA"
+        },
+        "DIR_p_ALPA4.SA_1": {
+            "ind": "DIR_p",
+            "ticker": "ALPA4.SA",
+            "period": 1
+        },
+        "DIR_p_ALPA4.SA_2": {
+            "ind": "DIR_p",
+            "ticker": "ALPA4.SA",
+            "period": 2
+        },
+        "DIR_p_ALPA4.SA_3": {
+            "ind": "DIR_p",
+            "ticker": "ALPA4.SA",
+            "period": 3
+        },
+        "DIR_p_ALPA4.SA_4": {
+            "ind": "DIR_p",
+            "ticker": "ALPA4.SA",
+            "period": 4
+        },
+        "DIR_p_ALPA4.SA_5": {
+            "ind": "DIR_p",
+            "ticker": "ALPA4.SA",
+            "period": 5
+        },
+        "RSL_ALPA4.SA_Close_5": {
+            "ind": "RSL",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 5
+        },
+        "RSL_ALPA4.SA_Close_10": {
+            "ind": "RSL",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSL_ALPA4.SA_Close_15": {
+            "ind": "RSL",
+            "ticker": "ALPA4.SA",
+            "column": "Close",
+            "period": 15
+        }
+    },
+    "drop": "drop",
+    "model_type": "serial_skl",
+    "binary": false,
+    "pca": false
+}

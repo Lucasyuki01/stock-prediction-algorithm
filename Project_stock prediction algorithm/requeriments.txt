@@ -1,0 +1,12 @@
+matplotlib
+matplotlib-inline
+numpy
+pandas
+plotly
+pytz
+tornado
+xgboost
+scikit-learn
+scipy
+yfinance
+papermill

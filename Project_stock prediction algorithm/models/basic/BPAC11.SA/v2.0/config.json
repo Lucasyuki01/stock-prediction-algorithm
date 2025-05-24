@@ -1,0 +1,244 @@
+{
+    "tickers": {
+        "BPAC11.SA": [
+            "Open",
+            "High",
+            "Low",
+            "Close",
+            "Volume"
+        ]
+    },
+    "indicators": {
+        "RSI_BPAC11.SA_Open_10": {
+            "ind": "RSI",
+            "ticker": "BPAC11.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "RSI_BPAC11.SA_Open_15": {
+            "ind": "RSI",
+            "ticker": "BPAC11.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "RSI_BPAC11.SA_Close_10": {
+            "ind": "RSI",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSI_BPAC11.SA_Close_15": {
+            "ind": "RSI",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "MACD_BPAC11.SA_Close": {
+            "ind": "MACD",
+            "ticker": "BPAC11.SA",
+            "column": "Close"
+        },
+        "detrend_BPAC11.SA_Open_10": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Open",
+            "period": 10
+        },
+        "detrend_BPAC11.SA_Open_15": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Open",
+            "period": 15
+        },
+        "detrend_BPAC11.SA_Open_20": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Open",
+            "period": 20
+        },
+        "detrend_BPAC11.SA_Close_10": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "detrend_BPAC11.SA_Close_15": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 15
+        },
+        "detrend_BPAC11.SA_Close_20": {
+            "ind": "detrend",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 20
+        },
+        "volatility_BPAC11.SA_5": {
+            "ind": "volatility",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "volatility_BPAC11.SA_10": {
+            "ind": "volatility",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "volatility_BPAC11.SA_20": {
+            "ind": "volatility",
+            "ticker": "BPAC11.SA",
+            "period": 20
+        },
+        "lag_n_BPAC11.SA_1": {
+            "ind": "lag_n",
+            "ticker": "BPAC11.SA",
+            "period": 1
+        },
+        "VWAP_BPAC11.SA_5": {
+            "ind": "VWAP",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "VWAP_BPAC11.SA_10": {
+            "ind": "VWAP",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "CCI_BPAC11.SA_5": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "CCI_BPAC11.SA_6": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 6
+        },
+        "CCI_BPAC11.SA_7": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 7
+        },
+        "CCI_BPAC11.SA_8": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 8
+        },
+        "CCI_BPAC11.SA_9": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 9
+        },
+        "CCI_BPAC11.SA_10": {
+            "ind": "CCI",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "SOSC_BPAC11.SA_5": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "SOSC_BPAC11.SA_6": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 6
+        },
+        "SOSC_BPAC11.SA_7": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 7
+        },
+        "SOSC_BPAC11.SA_8": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 8
+        },
+        "SOSC_BPAC11.SA_9": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 9
+        },
+        "SOSC_BPAC11.SA_10": {
+            "ind": "SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "Bin_SOSC_BPAC11.SA_5": {
+            "ind": "Bin_SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "Bin_SOSC_BPAC11.SA_10": {
+            "ind": "Bin_SOSC",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "zscore_BPAC11.SA_5": {
+            "ind": "zscore",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "zscore_BPAC11.SA_10": {
+            "ind": "zscore",
+            "ticker": "BPAC11.SA",
+            "period": 10
+        },
+        "zscore_BPAC11.SA_15": {
+            "ind": "zscore",
+            "ticker": "BPAC11.SA",
+            "period": 15
+        },
+        "DIR_BPAC11.SA": {
+            "ind": "DIR",
+            "ticker": "BPAC11.SA"
+        },
+        "DIR_p_BPAC11.SA_1": {
+            "ind": "DIR_p",
+            "ticker": "BPAC11.SA",
+            "period": 1
+        },
+        "DIR_p_BPAC11.SA_2": {
+            "ind": "DIR_p",
+            "ticker": "BPAC11.SA",
+            "period": 2
+        },
+        "DIR_p_BPAC11.SA_3": {
+            "ind": "DIR_p",
+            "ticker": "BPAC11.SA",
+            "period": 3
+        },
+        "DIR_p_BPAC11.SA_4": {
+            "ind": "DIR_p",
+            "ticker": "BPAC11.SA",
+            "period": 4
+        },
+        "DIR_p_BPAC11.SA_5": {
+            "ind": "DIR_p",
+            "ticker": "BPAC11.SA",
+            "period": 5
+        },
+        "RSL_BPAC11.SA_Close_5": {
+            "ind": "RSL",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 5
+        },
+        "RSL_BPAC11.SA_Close_10": {
+            "ind": "RSL",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 10
+        },
+        "RSL_BPAC11.SA_Close_15": {
+            "ind": "RSL",
+            "ticker": "BPAC11.SA",
+            "column": "Close",
+            "period": 15
+        }
+    },
+    "drop": "drop",
+    "model_type": "serial_skl",
+    "binary": false,
+    "pca": false
+}
