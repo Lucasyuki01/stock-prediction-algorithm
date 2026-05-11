@@ -1,91 +1,100 @@
-
 # 📈 Stock Prediction Algorithm
 
-This project is part of my **undergraduate thesis (TCC)** in Computer Science and focuses on using **Machine Learning** techniques to forecast the behavior of financial assets in the Brazilian stock market (B3).
+ML-based trading strategy for the Brazilian stock market (B3), developed as an undergraduate thesis at UNESP (2024).
 
-## 🎯 Objective
+Three machine learning models — Random Forest, XGBoost, and SVM — were used to classify stock movements (buy / hold / sell) based on technical indicators, and to build portfolios evaluated against the Ibovespa benchmark.
 
-To evaluate the performance of different machine learning models in predicting stock movement (buy, hold, sell) based on technical indicators, and to compare the resulting portfolios in terms of **Sharpe Ratio** and **Maximum Drawdown (MDD)**.
+---
 
-## 🧠 Technologies and Techniques Used
+## 🏆 Results (Jan 2022 – Oct 2024)
 
-- **Machine Learning Models**:
-  - Random Forest
-  - XGBoost
-  - Support Vector Machines (SVM)
+| Model | Cumulative Return | Sharpe Ratio |
+|---|---|---|
+| **XGBoost** | **254.4%** | **1.731** |
+| SVM | 229.7% | 1.357 |
+| Random Forest | 157.6% | 1.018 |
+| Ibovespa (benchmark) | 20.9% | 0.340 |
 
-- **Indicators and Features**:
-  - RSI (Relative Strength Index)
-  - MACD
-  - Volatility
-  - Z-score
+All three models significantly outperformed the Ibovespa benchmark in both return and risk-adjusted performance. XGBoost achieved the highest Sharpe Ratio (1.731), while Random Forest delivered the most stable equity curve with controlled drawdown.
 
-- **Backtesting Strategy**:
-  - Portfolio selection based on classification results
-  - Evaluation using Sharpe Ratio and MDD
-  - Data split: ~10 years total; last 3 for testing, 1 for validation, rest for training
+---
 
-- **Tools and Libraries**:
-  - Python
-  - scikit-learn
-  - pandas, numpy
-  - matplotlib, seaborn
+## 🧠 How it works
+
+Stock price movement was framed as a 3-class classification problem:
+
+- **-1** → Sell signal (expected price drop)
+- **0** → Hold (sideways movement within a threshold)
+- **1** → Buy signal (expected price rise)
+
+Models were trained on 10 years of historical data (2010–2019), validated on 2020–2021, and tested on 2022–2024 — strict temporal splits to prevent data leakage.
+
+### Features used
+
+Technical indicators computed from OHLCV data:
+
+`RSI` · `MACD` · `Volatility` · `Z-Score` · `VWAP` · `CCI` · `SOSC` · `Detrend` · `Lag features` · `Price direction (Dir / Dir_p)`
+
+### Portfolio selection strategy
+
+For each model, assets were selected from the top 25% Sharpe Ratio performers on the validation set, filtered by Maximum Drawdown (MDD). This strategy was then applied to the test set with no lookahead bias.
+
+---
 
 ## 🗂️ Project Structure
 
 ```
 stock-prediction-algorithm/
-├── data/                     # Raw and processed stock data
-├── models/                   # Trained models and reports by asset
-├── src/                      # Source code (feature engineering, training, evaluation)
-├── utils/                    # Utility functions
-├── indicadores/              # Financial indicators implementation
-├── setups_run.ipynb          # Orchestration of model setups
-├── summary.ipynb             # Final performance summary
-├── summary_return.ipynb      # Return and risk analysis
+├── Project_stock prediction algorithm/
+│   ├── src/               # Feature engineering, training, evaluation
+│   ├── models/            # Trained models and reports per asset
+│   ├── data/              # Raw and processed stock data
+│   ├── indicadores/       # Financial indicators implementation
+│   ├── utils/             # Utility functions
+│   ├── setups_run.ipynb   # Model training and grid search orchestration
+│   ├── summary.ipynb      # Performance summary
+│   └── summary_return.ipynb  # Return and risk analysis
+├── Monograph-final-work.pdf  # Full undergraduate thesis (Portuguese)
 └── README.md
 ```
 
-## 📊 Results
+---
 
-The final section compares the strategies built from each algorithm using:
-- Sharpe Ratio
-- Maximum Drawdown
-- Return distribution
-- Asset selection frequency
+## 🚀 How to Run
 
-Graphs and tables were generated to support discussion and performance comparison.
+```bash
+git clone https://github.com/Lucasyuki01/stock-prediction-algorithm.git
+cd stock-prediction-algorithm
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-## 🧪 How to Run
+Then open and run the notebooks in order:
+1. `setups_run.ipynb` — trains models with grid search
+2. `summary.ipynb` — evaluates Sharpe and MDD per asset
+3. `summary_return.ipynb` — cumulative return analysis
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Lucasyuki01/stock-prediction-algorithm.git
-   cd stock-prediction-algorithm
-   ```
+> Data is fetched automatically via `yfinance`. Place any local CSVs in `data/`.
 
-2. (Optional) Create a virtual environment and install dependencies:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
-   pip install -r requirements.txt
-   ```
+---
 
-3. Run the main notebooks:
-   - `setups_run.ipynb`
-   - `summary.ipynb`
-   - `summary_return.ipynb`
+## 🛠️ Tech Stack
 
-Ensure the data is correctly placed in the `data/` folder and the models in `models/`.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189ABF?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+
+---
 
 ## 👨‍💻 Author
 
-Developed by **Lucas Yuki**  
-Final undergraduate thesis (TCC) in Computer Science – UNESP (2024)
+**Lucas Yuki Nishimoto**
+Undergraduate thesis in Computer Science — UNESP, Bauru, Brazil (2024)
 
-**Advisor**: Prof. Dr. Mateus Roder  
-**Co-advisor**: Prof. Dr. André Debiaso
+**Advisor:** Prof. Dr. Mateus Roder
+**Co-advisor:** Prof. Dr. André Debiaso Rossi
 
-## 📜 License
-
-This project is licensed under the MIT License.
+📄 [Full thesis (PDF)](./Monograph-final-work.pdf)
