@@ -17,6 +17,19 @@ Three machine learning models — Random Forest, XGBoost, and SVM — were used 
 
 All three models significantly outperformed the Ibovespa benchmark in both return and risk-adjusted performance. XGBoost achieved the highest Sharpe Ratio (1.731), while Random Forest delivered the most stable equity curve with controlled drawdown.
 
+## ⚠️ Limitations
+
+- Results come from a historical backtest (Jan 2022 to Oct 2024), not from live trading.
+- The test window covers a single period of the Brazilian market, so performance may not hold in other market conditions.
+- Assets were selected using validation-period Sharpe Ratio (2020 to 2021), which can favor assets that simply performed well in that window.
+- The Ibovespa is a broad index, while the strategy holds a selected subset of assets, so the comparison is not like for like.
+
+## 🔭 Next steps
+
+- Walk-forward validation across several test periods to check how stable the results are.
+- Paper trading to compare live signals against the backtest.
+
+
 ---
 
 ## 🧠 How it works
